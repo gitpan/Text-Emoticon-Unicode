@@ -4,7 +4,7 @@
       "Nick Patch <patch@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.112621",
+   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110930",
    "license" : [
       "perl_5"
    ],
@@ -27,6 +27,7 @@
       "runtime" : {
          "requires" : {
             "Text::Emoticon" : 0,
+            "parent" : 0,
             "perl" : "v5.6.0"
          }
       }
@@ -34,7 +35,7 @@
    "provides" : {
       "Text::Emoticon::Unicode" : {
          "file" : "lib/Text/Emoticon/Unicode.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -50,5 +51,5 @@
          "url" : "git://github.com/patch/text-emoticon-unicode-pm5.git"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
